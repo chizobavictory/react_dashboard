@@ -1,4 +1,4 @@
-### React Dashboard
+# React Dashboard
 This is a react dashboard that uses the following technologies:
 - React
 - Typescript
@@ -6,7 +6,7 @@ This is a react dashboard that uses the following technologies:
 - SCSS
 
 
-# Getting Started with Create React App
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
