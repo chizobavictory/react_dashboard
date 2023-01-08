@@ -24,7 +24,7 @@ const Single = () => {
                 <h1 className="itemTitle">Chizoba Victory</h1>
                 <div className="detailItem">
                   <span className="itemKey">Email:</span>
-                  <span className="itemValue">cvictory@gmail.com</span>
+                  <span className="itemValue">@gmail.com</span>
                 </div>
                 <div className="detailItem">
                   <span className="itemKey">Phone:</span>
