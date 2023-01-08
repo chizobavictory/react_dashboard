@@ -4,8 +4,8 @@
   
   .datatableTitle{
     width: 100%;
-    font-size: 24px;
-    color: gray;
+    font-size: 18px;
+    color: #213F7D;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -37,8 +37,8 @@
   }
 
   .cellWithStatus {
-    padding: 5px;
-    border-radius: 5px;
+    padding: 5px 10px;
+    border-radius: 50px;
 
     &.active {
       background-color: rgba(0, 128, 0, 0.05);
