@@ -13,7 +13,7 @@ type Input = {
 
 type NewProps = {
   inputs: Input[];
-  title: any;
+  title: string;
 };
 
 const New = ({ inputs, title }: NewProps) => {
