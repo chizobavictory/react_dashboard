@@ -27,6 +27,7 @@ export const userInputs = [
     id: 5,
     label: "Password",
     type: "password",
+    placeholder: "",
   },
   {
     id: 6,
