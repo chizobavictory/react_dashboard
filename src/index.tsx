@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import { DarkModeContextProvider } from './context/darkModeContext';
 
 
 const root = ReactDOM.createRoot(
@@ -8,7 +9,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <DarkModeContextProvider>
+      <App />
+    </DarkModeContextProvider>
+  </React.StrictMode>,
 );
 
