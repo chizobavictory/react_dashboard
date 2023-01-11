@@ -5,6 +5,8 @@ This is a react dashboard that uses the following technologies:
 - Material UI
 - SCSS
 
+### Hosted Link
+This project can be viewed on the hosted link: https://chizobavctoryreactdashboard.netlify.app/
 
 ### Getting Started with Create React App
 
