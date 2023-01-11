@@ -5,7 +5,7 @@ import DriveFolderUploadOutlinedIcon from "@mui/icons-material/DriveFolderUpload
 import { useState } from "react";
 
 type Input = {
-  id: string;
+  id: number;
   label: string;
   type: string;
   placeholder: string;
@@ -13,7 +13,7 @@ type Input = {
 
 type NewProps = {
   inputs: Input[];
-  title: any;
+  title: string;
 };
 
 const New = ({ inputs, title }: NewProps) => {
