@@ -1,8 +1,10 @@
 .home {
   display: flex;
+  padding-top: 50px;
 
   .homeContainer {
     flex: 6;
+    padding-left: 200px;
 
     .widgets,
     .charts {
