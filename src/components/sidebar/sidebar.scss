@@ -3,6 +3,12 @@
   border-right: 0.5px solid rgb(230, 227, 227);
   min-height: 100vh;
   background-color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  z-index: 1;
   // position: fixed;
 
   .top {
@@ -84,7 +90,7 @@
               background-color: #333;
           }
           &:nth-child(3){
-              background-color: darkblue;
+              background-color: #4195c0;
           }
       }
   }

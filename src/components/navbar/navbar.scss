@@ -1,12 +1,15 @@
 .navbar {
   height: 50px;
+  background-color: white;
   border-bottom: 0.5px solid rgb(231, 228, 228);
   display: flex;
-  // position: sticky;
-  // top: 0;
   align-items: center;
   font-size: 14px;
   color: #555;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 
   .wrapper {
     width: 100%;
@@ -20,6 +23,7 @@
       align-items: center;
       border: 0.5px solid lightgray;
       padding: 3px;
+      margin-left: 200px;
 
       input {
         border: none;
@@ -42,7 +46,7 @@
         margin-right: 20px;
         position: relative;
 
-        .language{
+        .language {
           margin-left: 2px;
         }
 
