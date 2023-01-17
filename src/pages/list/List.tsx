@@ -7,8 +7,8 @@ const List = () => {
   return (
     <div className="list">
       <Sidebar />
-      <Navbar />
       <div className="listContainer">
+      <Navbar />
         <Datatable />
       </div>
     </div>
