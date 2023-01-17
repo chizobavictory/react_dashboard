@@ -55,47 +55,67 @@
   }
 
   .single {
-    .title {
-      color: rgb(191, 191, 191);
-    }
-    .details {
-      .itemTitle {
-        color: #4195c0;
+    .singleContainer {
+      .title {
+        color: rgb(191, 191, 191);
+      }
+      .details {
+        .itemTitle {
+          color: #4195c0;
+        }
+      }
+      .bottom {
+        background-color: rgb(29, 29, 29);
+        box-shadow: none;
+      }
+      .top {
+        .left {
+          background-color: rgb(29, 29, 29);
+          box-shadow: none;
+          z-index: 2;
+        }
       }
     }
   }
 
   .new {
     background-color: #111;
-    .top {
-      background-color:  rgb(29, 29, 29);
-      box-shadow: none;
-      h1 {
-        color: rgb(191, 191, 191);
+    .newContainer {
+      .top {
+        background-color: rgb(29, 29, 29);
+        box-shadow: none;
+        h1 {
+          color: rgb(191, 191, 191);
+        }
       }
-    }
-    .bottom{
-      background-color:  rgb(29, 29, 29);
-      box-shadow: none;
+      .bottom {
+        background-color: rgb(29, 29, 29);
+        box-shadow: none;
+        margin-bottom: 200px;
+        padding: 40px 40px 40px 0px;
+      }
     }
   }
 
   .datatable {
-    .link {
-      color: #4195c0;
-    }
     .datatableTitle {
       color: rgb(191, 191, 191);
     }
     .datagrid {
+      background-color:  rgb(29, 29, 29);
       color: gray;
-      border: none;
+      border: 1px gray solid;
 
       .viewButton,
       .deleteButton,
       .cellWithStatus {
         color: gray;
-        border: none;
+        border: 1px gray solid;
+      }
+
+      .css-i4bv87-MuiSvgIcon-root,
+      .css-levciy-MuiTablePagination-displayedRows {
+        color: gray;
       }
     }
   }
@@ -129,6 +149,13 @@
       .counter {
         color: #4195c0;
       }
+    }
+  }
+
+  .list {
+    .listContainer {
+      background-color: #111;
+      margin-bottom: 100px;
     }
   }
 

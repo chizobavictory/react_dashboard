@@ -8,18 +8,14 @@ const Single = () => {
   return (
     <div className="single">
       <Sidebar />
+      <Navbar />
       <div className="singleContainer">
-        <Navbar />
         <div className="top">
           <div className="left">
             <div className="editButton">Edit</div>
             <h1 className="title">Information</h1>
             <div className="item">
-              <img
-                src="https://mir-s3-cdn-cf.behance.net/user/276/a7d1b545266123.6224667ab06db.jpg"
-                alt=""
-                className="itemImg"
-              />
+              <img src="https://mir-s3-cdn-cf.behance.net/user/276/a7d1b545266123.6224667ab06db.jpg" alt="" className="itemImg" />
               <div className="details">
                 <h1 className="itemTitle">Chizoba Victory</h1>
                 <div className="detailItem">
@@ -32,9 +28,7 @@ const Single = () => {
                 </div>
                 <div className="detailItem">
                   <span className="itemKey">Address:</span>
-                  <span className="itemValue">
-                    Elton St. 234 Garden Yd. NewYork
-                  </span>
+                  <span className="itemValue">Elton St. 234 Garden Yd. NewYork</span>
                 </div>
                 <div className="detailItem">
                   <span className="itemKey">Country:</span>
@@ -48,8 +42,8 @@ const Single = () => {
           </div>
         </div>
         <div className="bottom">
-        <h1 className="title">Last Transactions</h1>
-          <List/>
+          <h1 className="title">Last Transactions</h1>
+          <List />
         </div>
       </div>
     </div>
