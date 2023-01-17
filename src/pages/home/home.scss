@@ -25,9 +25,21 @@
 
       .listTitle {
         font-weight: 500;
-        color: #545F7D;;
+        color: #545f7d;
         margin-bottom: 15px;
       }
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  /* styles for tablets */
+  .home {
+    /* adjust padding-top and padding-left */
+    padding-top: 25px;
+    .homeContainer {
+      padding-left: 100px;
+    }
+  }
+}
+

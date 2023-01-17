@@ -7,7 +7,7 @@
   }
 
   .table {
-    background-color: #111;
+    background-color: rgb(29, 29, 29);
 
     .tableCell {
       color: gray;
@@ -68,9 +68,15 @@
   .new {
     background-color: #111;
     .top {
+      background-color:  rgb(29, 29, 29);
+      box-shadow: none;
       h1 {
         color: rgb(191, 191, 191);
       }
+    }
+    .bottom{
+      background-color:  rgb(29, 29, 29);
+      box-shadow: none;
     }
   }
 
@@ -95,18 +101,24 @@
   }
 
   .featured {
+    background-color: rgb(29, 29, 29);
+    box-shadow: none;
     .top {
       color: rgb(191, 191, 191);
     }
   }
 
   .chart {
+    background-color: rgb(29, 29, 29);
+    box-shadow: none;
     .title {
       color: rgb(191, 191, 191);
     }
   }
 
   .widget {
+    background-color: rgb(29, 29, 29);
+    box-shadow: none;
     .left {
       .title {
         color: rgb(191, 191, 191);
@@ -123,6 +135,10 @@
   .home {
     .listTitle {
       color: rgb(191, 191, 191);
+    }
+    .listContainer {
+      background-color: rgb(29, 29, 29);
+      box-shadow: none;
     }
   }
 
