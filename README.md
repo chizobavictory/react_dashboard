@@ -5,6 +5,10 @@ This is a react dashboard that uses the following technologies:
 - Material UI
 - SCSS
 
+
+https://user-images.githubusercontent.com/43314673/212993958-031a781a-3a83-4717-b04a-2022aca19fe4.mov
+
+
 ### Hosted Link
 This project can be viewed on the hosted link: https://chizobavctoryreactdashboard.netlify.app/
 
