@@ -54,6 +54,26 @@
     }
   }
 
+  .single {
+    .title {
+      color: rgb(191, 191, 191);
+    }
+    .details {
+      .itemTitle {
+        color: #4195c0;
+      }
+    }
+  }
+
+  .new {
+    background-color: #111;
+    .top {
+      h1 {
+        color: rgb(191, 191, 191);
+      }
+    }
+  }
+
   .datatable {
     .datagrid {
       color: gray;

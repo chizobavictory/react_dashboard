@@ -1,9 +1,10 @@
 .new {
-  width: 100%;
   display: flex;
+  padding-top: 50px;
 
   .newContainer {
     flex: 6;
+    padding-left: 200px;
 
     .top,
     .bottom {
@@ -15,7 +16,7 @@
 
       h1 {
         font-weight: 400;
-        color: #545F7D;;
+        color: #545f7d;
       }
 
       .left {
